@@ -22,7 +22,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
 
   return (
     <html lang='en'>
-      <body className={roboto.className}>
+      <body className={roboto.className} style={{maxWidth: 700, margin: '0 auto'}}>
         <React.StrictMode>
           <SessionProvider>{children}</SessionProvider>
         </React.StrictMode>

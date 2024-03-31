@@ -18,7 +18,7 @@ export default function Header() {
         back={backIcon}
         onBack={togglePopup}
         backArrow={false}
-        style={{ backgroundColor: "white" }}
+        style={{ backgroundColor: "white", left: 0 }}
         className="topNav"
       >
         <Image
